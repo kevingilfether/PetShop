@@ -35,6 +35,17 @@
         </dd>
 
     </dl>
+    <h3>Food Info</h3>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.food.FoodName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.food.FoodName)
+        </dd>
+    </dl>
+
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.pet.PetID }) |
