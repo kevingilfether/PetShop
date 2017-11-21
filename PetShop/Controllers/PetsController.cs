@@ -37,7 +37,7 @@ namespace PetShop.Controllers
             {
                 pet = originalPet,
                 food = (from food in db.Foods
-                       where food.FoodName.Contains("dog")
+                       where food.FoodType.Contains(originalPet.PetType)
                        select food).First()
             };
 
