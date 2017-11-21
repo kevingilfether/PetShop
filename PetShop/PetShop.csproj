@@ -141,6 +141,7 @@
     <Compile Include="Models\Pet.cs">
       <DependentUpon>PetShop.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\PetFoodViewModel.cs" />
     <Compile Include="Models\PetShop.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
